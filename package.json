@@ -1,0 +1,38 @@
+{
+  "name": "cerva-duino2",
+  "version": "2.0.0",
+  "description": "Controlador de brassagens com arduino",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadupenido/CervaDuino.git"
+  },
+  "keywords": [
+    "brewery",
+    "arduino",
+    "cerveja",
+    "brassagens"
+  ],
+  "author": "Carlos Eduardo C. Penido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadupenido/CervaDuino/issues"
+  },
+  "homepage": "https://github.com/kadupenido/CervaDuino#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cerva-duino2": "file:",
+    "cors": "^2.8.5",
+    "etherport-client": "^0.1.4",
+    "express": "^4.21.1",
+    "firmata": "^2.3.0",
+    "johnny-five": "^2.1.0",
+    "liquid-pid": "^1.0.0",
+    "mongoose": "^8.7.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.8.0"
+  }
+}
